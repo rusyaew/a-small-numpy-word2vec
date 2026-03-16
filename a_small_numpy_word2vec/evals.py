@@ -9,7 +9,7 @@ from .typing_ import FloatArray
 def l2_normalized(embeddings: FloatArray, *, eps: float = 1e-12) -> FloatArray:
     row_norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
     row_norms = np.maximum(row_norms, eps)
-    return (embeddings / row_norms).astype(np.float32, copy=False)
+    return np.asarray(embeddings / row_norms, dtype=np.float32)
 
 
 def nearest_words(
