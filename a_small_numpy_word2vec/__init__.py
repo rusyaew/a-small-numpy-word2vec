@@ -1,7 +1,7 @@
 from .config import CorpusConfig, TrainConfig
-from .preprocessing import TrainingCorpus, Vocabulary, prepare_corpus, read_text, tokenize
 from .evals import nearest_words
 from .model import Word2Vec
+from .preprocessing import TrainingCorpus, Vocabulary, prepare_corpus, read_text, tokenize
 from .training import train_word2vec
 
 __all__ = [

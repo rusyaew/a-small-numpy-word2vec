@@ -30,4 +30,7 @@ def nearest_words(
     cosine_similarities[target_word_id] = -np.inf
 
     nearest_ids = np.argsort(cosine_similarities)[-top_k:][::-1]
-    return [(vocabulary.token(int(token_id)), float(cosine_similarities[token_id])) for token_id in nearest_ids]
+    return [
+        (vocabulary.token(int(token_id)), float(cosine_similarities[token_id]))
+        for token_id in nearest_ids
+    ]

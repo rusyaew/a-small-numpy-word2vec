@@ -3,13 +3,14 @@ from __future__ import annotations
 import numpy as np
 
 from .config import CorpusConfig, TrainConfig
-from .preprocessing import NegativeSampler, TrainingCorpus, iter_skipgram_pairs, prepare_corpus
 from .model import (
     Word2Vec,
     apply_negative_sampling_update,
     init_embeddings,
     negative_sampling_step,
 )
+from .preprocessing import NegativeSampler, TrainingCorpus, iter_skipgram_pairs, prepare_corpus
+
 
 def train_word2vec(
         text: str,

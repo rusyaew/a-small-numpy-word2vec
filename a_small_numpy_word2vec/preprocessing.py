@@ -1,10 +1,10 @@
 from __future__ import annotations
 
+import re
 from collections import Counter
+from collections.abc import Iterator
 from dataclasses import dataclass
 from pathlib import Path
-import re
-from typing import Iterator
 
 import numpy as np
 

@@ -4,9 +4,10 @@ from dataclasses import dataclass
 
 import numpy as np
 
-from .typing_ import FloatArray, IntArray
-from .preprocessing import Vocabulary
 from .evals import nearest_words as _nearest_words
+from .preprocessing import Vocabulary
+from .typing_ import FloatArray, IntArray
+
 
 @dataclass(frozen=True)
 class Word2Vec:
