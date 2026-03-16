@@ -1,0 +1,31 @@
+king queen prince princess royal crown throne palace
+man woman boy girl father mother male female
+paris france berlin germany rome italy capital city europe
+dog puppy cat kitten animal pet tail fur
+red blue green yellow color bright dark light
+man king father male
+boy prince male
+woman queen mother female
+girl princess female
+man boy king father male
+woman girl mother queen female
+the king is a royal man
+the queen is a royal woman
+the prince is a young royal boy
+the princess is a young royal girl
+a king rules the kingdom
+a queen rules the kingdom
+a prince inherits the kingdom
+a princess inherits the kingdom
+the man is male
+the woman is female
+the boy is young male
+the girl is young female
+the king is male
+the queen is female
+the prince is male
+the princess is female
+a man lives in the palace
+a woman lives in the palace
+a king lives in the palace
+a queen lives in the palace

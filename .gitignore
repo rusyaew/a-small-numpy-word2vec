@@ -1,0 +1,43 @@
+# Keep project metadata tracked
+!pyproject.toml
+
+# JetBrains / IntelliJ IDEA
+.idea/
+*.iml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Test / type-check / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optional local env files
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
